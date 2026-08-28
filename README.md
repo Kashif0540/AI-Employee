@@ -54,7 +54,7 @@ pip install google-auth google-auth-oauthlib google-api-python-client requests p
 ### 3. Install Claude Code (used for classification and drafting)
 ```bash
 npm install -g @anthropic-ai/claude-code
-claude    # first run opens a browser to log in with your Anthropic account
+claude  # first run opens a browser to log in with your Anthropic account
 ```
 
 ### 4. Set up Gmail access
