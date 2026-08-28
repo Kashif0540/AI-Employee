@@ -100,7 +100,7 @@ powershell -ExecutionPolicy Bypass -File "scripts/setup_task_scheduler.ps1"
 
 ### Start the watchers manually
 ```bash
-python gmail_dev_watcher.py       # polls Gmail every 60s by default
+python gmail_dev_watcher.py      # polls Gmail every 60s by default
 python linkedin_dev_watcher.py    # polls the LinkedIn intake folder every 300s by default
 ```
 Each watcher runs continuously until stopped with `Ctrl+C`, and refreshes the dashboard on every cycle.
